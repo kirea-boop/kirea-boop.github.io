@@ -1,0 +1,73 @@
+body{ 
+    background: linear-gradient(#d84646, #2b7174);
+    color: #93B7BE;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+header {
+    background-color: #002171;
+    background-image: url(moon.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #93B7BE;
+    line-height: 400%;
+    text-indent: 1em;
+}
+#container{
+    float: right;
+    width: 300px;
+    padding: 1.5em;
+}
+div {
+    float: right;
+    margin-top: 60px;
+}
+p{
+    color: #90c0df;
+}
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin-left: 140px;
+}
+table{
+    border: 2px solid #39c;
+    border-collapse: collapse;
+    background-color: #fdfdfd;
+    font-family: Copperplate, Papyrus, fantasy;
+    
+}
+td, th {
+    padding: 0.5em;
+    border: 2px solid #39c;
+}
+td{
+    text-align: center;
+}
+.text{
+    text-align: left;
+}
+tr :nth-of-type(odd){
+    background-color: #fbeeff;
+}
+nav{
+    text-decoration: none;
+    display: block;
+    padding: 1em 2em;
+    transition: background-color 2s;
+}
+nav:hover{
+    background-color: aquamarine;
+}
